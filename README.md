@@ -12,18 +12,22 @@ product team informatively and to be understandable to the entire team, which
 includes technical and non-technical specialists.
 
 Dataset Description:
-__event_date__ - Timestamp of the event
-__session__ - Session ID
-__user__ - User ID
-__page_type__ - Type of the page
-__event_type__ - Type of the event
-__product__ - Product ID
+
+```
+event_date - Timestamp of the event
+session - Session ID
+user - User ID
+page_type - Type of the page
+event_type - Type of the event
+product - Product ID
+ 
+ ```
 
 ### Solution Details
 
 Files:
 * __sql_solution_python.ipynb__ - a jupyter notebook that was used to explore the data in the very beginning of the task completion. Also, it's needed to create a table and export the data from the file into the newly created Postgres table;
-* * __Test Task 2.pdf__ - that's a little presentation containing a very high-level summary about the first page's influence mainly.
+* __Test Task 2.pdf__ - that's a little presentation containing a very high-level summary about the first page's influence mainly.
 Also, here is a [Tableau Public Dashboard](https://public.tableau.com/app/profile/kseniiakaranda/viz/FunnelAnalysis_16711702027440/FunnelAnalysis).
 
 ## Part 2 - SQL
